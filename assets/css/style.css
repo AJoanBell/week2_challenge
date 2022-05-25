@@ -1,0 +1,163 @@
+
+:root {
+    --white: #000;
+    --dark-blue: #ffff;
+    --tan: #0000;
+   
+    --border-radius: 50px;
+  }
+  
+  body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: left;
+    background: black;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 140px;
+    top: 0;
+    padding: 20px;
+    margin-top: 20px;
+
+
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+
+  img {
+    border-radius: 50%;
+   }
+   
+   img {
+    opacity: 0.7;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+
+  nav {aside {
+  flex: -1;
+  background-color: #b9c6ae;
+  padding: 80px;
+  text-align: right;
+  
+}
+    display: flex;
+    background-color: var(--black);
+  }
+  
+  nav a {
+    color: white);
+    padding: 14px 20px;
+    text-decoration: underline;
+    text-align: right;
+    float: right;
+    top: 0
+    width: 50%;
+    height: 140px;
+    top: 0;
+
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: var(--white);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    flex: -1;
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: left;
+  }
+
+  footer {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin-top: 20px;
+   
+  }
+  
+  .products {
+    flex: 1;
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(0deg);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  .card > header {
+    /* This is the same as `border-radius: 50px 50px 0 0 */
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    padding: 20px;
+  }
+  
+  .card > p {
+    text-align: center;
+  }
+  
+  .card > img {
+    width: 100%;
+  }
+  
+  footer nav {aside {
+    flex: -1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: centre;
+  }
+      display: flex;
+      background-color: var(--black);
+    }
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
