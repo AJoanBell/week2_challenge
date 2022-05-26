@@ -38,9 +38,17 @@ Actions:
 - Header
     Top Menu
     Avatar
+- top image banner with copy
 - Hero paragraph about myself
 - Hero image with hover and links
+    - week 1 challenge application
 - 4x sub images with hover and links
+my chosen categories
+    - the basics - html/css
+    - calculator react/javascript/css
+    - LED Wall Node/iot
+    - digital consulting
+crop images to all the same size 1080x1920 and compress to under 1MB
 - Aside section with menu options
 - Footer navigation menu 
     Links to reusme, linkedin
