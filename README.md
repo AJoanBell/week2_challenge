@@ -36,11 +36,18 @@ Actions:
 
 2. Elements needed:
 - Header
-    Top Menu
-    Avatar
-- top image banner with copy
-- Hero paragraph about myself
-- Hero image with hover and links
+    Block colour background
+    Left aligned text
+    Top Menu right aligned
+
+3. Banner image 
+- right aligned text over image
+
+4. Paragraph about myself
+
+5. Hero image
+- transparency on hover and link to week 1 challenge application
+
     - week 1 challenge application
 - 4x sub images with hover and links
 my chosen categories
@@ -63,3 +70,14 @@ crop images to all the same size 1080x1920 and compress to under 1MB
 6. Link to final deployment
 
 7. Screenshot of final deployment
+
+  footer nav {aside {
+    flex: -1;
+    background-color: #b9c6ae;
+    padding: 80px;
+    text-align: centre;
+    width: 100%
+  }
+      display: flex;
+      background-color: var(--black);
+    }

@@ -24,11 +24,11 @@
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
-  
+/* Header contains text and navigation  */
   header {
     padding: 40px;
     text-align: left;
-    background: rgb(173, 17, 17);
+    background: #04AA6D;
     color: white;
     display: block;
     width: 100%;
@@ -39,6 +39,36 @@
 
 
   }
+
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: none;
+  overflow: hidden;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
   .center {
     display: block;
     margin-left: auto;
@@ -65,34 +95,21 @@
   nav {aside {
   flex: -1;
   background-color: #b9c6ae;
-  padding: 80px;
+  padding: 0px;
   text-align: right;
   
 }
     display: flex;
     background-color: var(--black);
   }
-  
-  nav a {
-    color: white);
-    padding: 40px;
-    text-decoration: underline;
-    text-align: right;
-    float: right;
-    top: 0
-    width: 100%;
-    height: 140px;
-    top: 0;
-    padding: 20px;
-    margin-top: 20px;
-
+  .vl {
+    border-left: 6px solid black;
+    height: 1000px;
+    position: absolute;
+    right: 84%;
+    margin-left: -3px;
+    top: 100;
   }
-  
-  nav a:hover {
-    background-color: black;
-    color: var(--white);
-  }
-  
   main {
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +117,7 @@
 
   aside {
     flex: -1;
-    background-color: #ffffff;
+    background-color: white;
     padding: 40px;
     text-align: left;
   }
@@ -111,25 +128,34 @@
     bottom: 0;
     padding: 20px;
     text-align: center;
-    background: black;
+    background: #04AA6D;
     color: white;
     margin-top: 20px;
    
   }
   .hero {
-    flex: 2;
-    height: 400px;
-    width: 50%;
+   
+    height: 200px;
+    width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/thumbnails/compressed/deployment.jpg");
+    background-image: url("../images/banner/matrix.jpg");
     background-size: cover;
-    background-position: right;
+    background-position: center;
+    text-align: right;
+    color: white;
+    background-color: #04AA6D;
+    height: 200px;
+    top: 0;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
   .thumbnails {
     flex: 1;
-    background-color: var(--white);
-    padding: 50px;
+    background-color: white;
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -137,31 +163,28 @@
   
   .card {
     border-style: solid;
-    border-width: 1px;
-    border-radius: var(--border-radius);
-    padding: 10px;
-    flex: 0 0 300px;
+    border-width: 10px;
+    border-color: #04AA6D;
+    padding: 0px;
     transform: rotate(0deg);
     margin: 20px;
+    flex: column, row
   }
-  
-  .card > header {
-    /* This is the same as `border-radius: 50px 50px 0 0 */
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
-    padding: 20px;
+  .column {
+    display: flex;
+    flex-direction: column;
   }
-  
-  .card > p {
-    text-align: center;
-  }
-  
+
   .card > img {
     width: 100%;
   }
+
+
   /* Container holding the image and the text */
 .container {
   position: left;
-
+width: 1920px
+height: 1080px
 }
 
 /* Text in text block over images */
@@ -169,7 +192,7 @@
   position: absolute;
   bottom: 20px;
   left: 10;
-  background-color: red;
+  background-color: #04AA6D;
   color: white;
   padding-left: 10px;
   padding-right: 10px;
@@ -178,16 +201,8 @@
 }
 
 
-  footer nav {aside {
-    flex: -1;
-    background-color: #b9c6ae;
-    padding: 80px;
-    text-align: centre;
-    width: 100%
-  }
-      display: flex;
-      background-color: var(--black);
-    }
+}
+
   @media screen and (max-width: 768px) {
     main,
     nav {
