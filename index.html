@@ -7,76 +7,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
- 
+
 </head>
 
 <body style="background-color: white;">
-  
-  <header class="float-left">
-    <h1>Andrea Bell</h1>
-    <h1>Portfolio</h1>
-    
-   
-  <div class="topnav">
-    <a href="About Me">About Me</a>
-    <a href="#">Work</a>
-    <a href="#">Contact Me</a>
-    <a href="#">Resume</a>
+
+  <header class="navbar">
+    <article>
+      <h1>Andrea Bell</h1>
+      <h1>Portfolio</h1>
+
+    </article>
+
+    <div class="topnav">
+      <a href="#About-Me">About Me</a>
+      <a href="#Work">Work</a>
+      <a href="#Contact">Contact Me</a>
+      <a href="#Resume">Resume</a>
+    </div>
+  </header>
+
+  <div class="hero">
+
+    <div class="hero-content">
+
+      <h1>Screen Queen</h1>
+      <h3>where content is King</h3>
+    </div>
   </div>
-</header>
 
-<div class="hero">
-  <br> <br> <br> <br> <br> <br>
-  <h1>Screen Queen</h1> 
-  <h3>where content is King</h3>
-</div>
-  
-  <main>
-    
-    <aside>
-      <section id="About-Me"></section><h2>About Me</h2> </section>
-      <img src="./assets/images/avatar.jpeg" alt="Avatar of Andrea Bell" class="float-left class="avatar" />
-      <br>  <br>  <br>  <br>  <br>  
+
+  <aside>
+    <section id="About-Me">
+      <h2>About Me</h2>
+    </section>
+    <img src="./assets/images/avatar.jpeg" alt="Avatar of Andrea Bell" class="avatar" />
+
+    <section id="Work">
       <h2>Work</h2>
-      <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  
-      <h2>Contact Me</h2>
-      <h2>Resume</h2>
-      <style>
-        .vl {
-          border-left: 6px solid black;
-          height: 1000px;
-        }
-        </style>
-        
-        <div class="vl"></div>
-    
-    </aside>
-    
-    
+    </section>
 
+    <section id="Contact">
+      <h2>Contact Me</h2>
+    </section>
+
+    <section id="Resume" href= ".assets/images/Resume">
+      <h2>Resume</h2>
+    </section>
+
+
+
+  </aside>
+
+  <main>
+    <section class="section-container">
+      <article class="section-title">
+        <p>Hello, pleased to meet you. My name is Andrea and I'm Senior Digital Media Specialist with over fifteen
+          years' experience in the Broadcast and Digital Media Industries. I have many ideas for products, but didn't
+          have the knowledge of how to build them myself, so I am currently upskilling through the coding bootcamp at
+          The University of Sydney. </p>
+      </article>
+
+      <article class="section-content">
+        <section class="card">
+          <a href="https://ajoanbell.github.io/week1_challenge/ ">
+            <img class="featured-img" src="./assets/images/thumbnails/compressed/deployment.jpg"
+              alt="Image of computer through glasses"> </a>
+          <div class="text-block">
+            <h4>Basic coding</h4>
+            <p>Html I CSS</p>
+          </div>
+        </section>
+      </article>
+    </section>
+
+
+    <!-- 
     <div class="thumbnails">
       <section class="bio">
-        <p>Hello, pleased to meet you. My name is Andrea and I'm Senior Digital Media Specialist with over fifteen years' experience in the Broadcast and Digital Media Industries. I have many ideas for products, but didn't have the knowledge of how to build them myself, so I am currently upskilling through the coding bootcamp at The University of Sydney. </p> 
-        </section>
-      <section class="card" >
-        <img src="./assets/images/thumbnails/compressed/deployment.jpg" alt="Image of computer through glasses" > 
+        <p>Hello, pleased to meet you. My name is Andrea and I'm Senior Digital Media Specialist with over fifteen
+          years' experience in the Broadcast and Digital Media Industries. I have many ideas for products, but didn't
+          have the knowledge of how to build them myself, so I am currently upskilling through the coding bootcamp at
+          The University of Sydney. </p>
+      </section>
+      <section class="card">
+        <a href="https://ajoanbell.github.io/week1_challenge/ ">
+          <img class="featured-img" src="./assets/images/thumbnails/compressed/deployment.jpg" alt="Image of computer through glasses"> </a>
         <div class="text-block">
           <h4>Basic coding</h4>
           <p>Html I CSS</p>
         </div>
       </section>
-      <section class="card" class="container" >
+      <section class="card" class="container">
         <img src="./assets/images/thumbnails/compressed/basic_html_css.jpg" alt="Image of coding" />
-     
-          <div class="text-block">
-            <h4>Basic coding</h4>
-            <p>Html I CSS</p>
-          </div>
-        
+
+        <div class="text-block">
+          <h4>Basic coding</h4>
+          <p>Html I CSS</p>
+        </div>
+
       </section>
 
       <section class="card" class="container">
-        
+
         <img src="./assets/images/thumbnails/compressed/node.jpg" alt="Image of background wall of technology" />
         <div class="text-block">
           <h4>LED Wall</h4>
@@ -86,38 +119,40 @@
       </section>
 
       <section class="card" class="container">
-        <img src="./assets/images/thumbnails/compressed/calculator_react_javascript_css.jpg" alt="Image of neon technology" href="https://www.w3schools.com"/>
+        <img src="./assets/images/thumbnails/compressed/calculator_react_javascript_css.jpg"
+          alt="Image of neon technology" href="https://www.w3schools.com" />
         <div class="text-block">
           <h4>Calculator</h4>
           <p>React/JavaScript/CSS</p>
         </div>
       </section>
 
-     
+
       <section class="card" class="container">
-    
-        <img src="./assets/images/thumbnails/compressed/digital_consulting.jpg" alt="Image of computer and device screens on table" />
+
+        <img src="./assets/images/thumbnails/compressed/digital_consulting.jpg"
+          alt="Image of computer and device screens on table" />
         <div class="text-block">
           <h4>Pastel Puzzels</h4>
           <p>MERN Stack</p>
         </div>
-      </section>
-   
-      <footer>
-        <h2> 0449194025 
-            <a href="mailto: Andrea.Bell28@gmail.com">Email</a>
-            <a href="https://www.linkedin.com/in/andreajoanbell/">LinkedIn</a>
-            <a href="https://github.com/AJoanBell">Git Hub</a>
-          </h3>
-          <p>Copyright Screen Queen aka Andrea Bell<br></p>
-        </footer>
-   
-    </div>
+      </section> 
+    </div> -->
 
-    
+    <footer>
+      <h2> 0449194025
+        <a href="mailto: Andrea.Bell28@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/andreajoanbell/">LinkedIn</a>
+        <a href="https://github.com/AJoanBell">Git Hub</a>
+        </h3>
+        <p>Copyright Screen Queen aka Andrea Bell<br></p>
+    </footer>
+
+
+
 
   </main>
-  
+
 </body>
 
 </html>

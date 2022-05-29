@@ -67,7 +67,7 @@ crop images to all the same size 1080x1920 and compress to under 1MB
 
 5. Next I included all my other work that I felt was relevant
 
-6. Link to final deployment
+6. Link to final deployment: https://ajoanbell.github.io/week2_challenge/
 
 7. Screenshot of final deployment
 

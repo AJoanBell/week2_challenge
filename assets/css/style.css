@@ -1,60 +1,61 @@
-
 :root {
-    --white: #000;
-    --dark-blue: #ffff;
-    --tan: #0000;
-   
-    --border-radius: 50px;
-  }
-  
-  body {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
+  --white: #000;
+  --dark-blue: #ffff;
+  --tan: #0000;
+
+  --border-radius: 50px;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
 /* Header contains text and navigation  */
-  header {
-    padding: 40px;
-    text-align: left;
-    background: #04AA6D;
-    color: white;
-    display: block;
-    width: 100%;
-    height: 140px;
-    top: 0;
-    padding: 20px;
-    margin-top: 20px;
+.navbar {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  background: #04AA6D;
+  color: white;
+  width: 100%;
+  height: 140px;
+  padding: 20px;
+  margin-top: 0px;
 
 
-  }
+}
 
-  /* Add a black background color to the top navigation */
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: none;
-  overflow: hidden;
-  
+ 
+
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
+
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 16px 14px 16px;
   text-decoration: underline;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
@@ -69,122 +70,140 @@
   color: white;
 }
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
-  }
- .avatar {
-  position: centre
-  width: 100%;
-  height: 50px;
-  top: 0;
-  bottom: 0;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+.avatar {
+  
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
   padding: 20px;
   margin-top: 20px;
 }
-   img {
-    opacity: 0.7;
-  }
-  
-  img:hover {
-    opacity: 1.0;
-  }
 
-  nav {aside {
+img {
+  opacity: 0.7;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+nav {
   flex: -1;
   background-color: #b9c6ae;
   padding: 0px;
   text-align: right;
-  
-}
-    display: flex;
-    background-color: var(--black);
-  }
-  .vl {
-    border-left: 6px solid black;
-    height: 1000px;
-    position: absolute;
-    right: 84%;
-    margin-left: -3px;
-    top: 100;
-  }
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  background-color: var(--black);
 
-  aside {
-    flex: -1;
-    background-color: white;
-    padding: 40px;
-    text-align: left;
-  }
 
-  footer {
-    display: block;
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: #04AA6D;
-    color: white;
-    margin-top: 20px;
-   
-  }
-  .hero {
-   
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/banner/matrix.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: right;
-    color: white;
-    background-color: #04AA6D;
-    height: 200px;
-    top: 0;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
 }
 
-  .thumbnails {
-    flex: 1;
-    background-color: white;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
+.vl {
+  border-left: 6px solid black;
+  height: 1000px;
+  position: absolute;
+  right: 84%;
+  margin-left: -3px;
+  top: 100;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
   
-  .card {
-    border-style: solid;
-    border-width: 10px;
-    border-color: #04AA6D;
-    padding: 0px;
-    transform: rotate(0deg);
-    margin: 20px;
-    flex: column, row
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-  }
+  background-color: white;
+  padding: 40px;
+  text-align: left;
+}
 
-  .card > img {
-    width: 100%;
-  }
+footer {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  color: black;
+  margin-top: 20px;
+
+}
+
+.hero {
+
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/banner/matrix.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+  color: white;
+  background-color: #04AA6D;
+  height: 200px;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+
+}
+
+.hero-content {
+  background-color: #04AA6D;
+  padding: 25px 20px;
+}
+
+.thumbnails {
+  
+  background-color: white;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.card {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #04AA6D;
+  padding: 0px;
+  width: 30%;
+  margin: 20px;
+  
+}
+
+.featured-img{
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.card>img {
+  width: 100%;
+}
 
 
-  /* Container holding the image and the text */
+/* Container holding the image and the text */
 .container {
   position: left;
-width: 1920px
-height: 1080px
+  width: 1920px;
+  height: 1080px;
+  
 }
 
 /* Text in text block over images */
@@ -201,12 +220,34 @@ height: 1080px
 }
 
 
+main {
+  display: flex;
+  flex-direction: column;
 }
 
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
+.section-container{
+  display: flex;
+}
+
+.section-title{
+  font-size: 20px;
+  flex-direction: column;
+  margin-top: 80px;
+  text-align: center;
+  padding: 14px 16px;
+}
+.section-content{
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  main,
+  header,
+  aside,
+  nav {
+    flex-direction: column;
   }
-  
+}
