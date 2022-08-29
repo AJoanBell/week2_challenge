@@ -70,14 +70,5 @@ crop images to all the same size 1080x1920 and compress to under 1MB
 6. Link to final deployment: https://ajoanbell.github.io/week2_challenge/
 
 7. Screenshot of final deployment
+<img width="1741" alt="Screen Shot 2022-05-29 at 11 03 41 pm" src="https://user-images.githubusercontent.com/36496885/170870169-965b00c2-77a2-422e-bea4-e8e11028dde5.png">
 
-  footer nav {aside {
-    flex: -1;
-    background-color: #b9c6ae;
-    padding: 80px;
-    text-align: centre;
-    width: 100%
-  }
-      display: flex;
-      background-color: var(--black);
-    }
